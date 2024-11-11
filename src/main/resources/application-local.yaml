@@ -1,0 +1,10 @@
+spring:
+  activemq:
+    queue:
+      highPriority: "DEV.QUEUE.1"
+
+  artemis:
+    mode: native
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin

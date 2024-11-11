@@ -1,0 +1,11 @@
+ibm:
+  mq:
+    queue-manager: QM1  # Replace with your queue manager
+    channel: DEV.APP.SVRCONN  # Replace with your channel
+    conn-name: "localhost(1414)"  # Connection string
+spring:
+  jms:
+    queue-names:
+      highPriority: "DEV.QUEUE.1"  # Replace with actual queue names
+      standardPriority: "DEV.QUEUE.2"
+      lowPriority: "DEV.QUEUE.3"

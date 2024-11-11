@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: activemq  # Set this to "ibmmq" to use IBM MQ
+  jms:
+    listener:
+      concurrency: 10  # Adjust as needed for concurrency
